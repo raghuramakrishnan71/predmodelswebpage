@@ -1,5 +1,20 @@
 # predmodelswebpage
 
+Structure of data directories.
+pagetime
+  datasets
+       csv
+       arff
+       bf
+       gr
+       results
+  scripts
+       step1-datacreation-list.txt
+       step1modified.bash
+       step2-feature-selection-list.txt
+       step2modified.bash
+
+---------------------------------------------------------------------------------------------------------------------------------
 Filename: step1modified.bash
 
 Description:
