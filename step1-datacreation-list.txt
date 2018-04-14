@@ -1,0 +1,11 @@
+pages_all
+pages_bankingnfinance
+pages_business
+pages_education
+pages_entertainment
+pages_governmentnlegal
+pages_informationtechnology
+pages_newsnmedia
+pages_searchenginesnportals
+pages_shopping
+pages_travel
