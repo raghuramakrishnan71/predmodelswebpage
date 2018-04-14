@@ -60,11 +60,29 @@ Name of training data files (e.g) : pages_all_onload-bf-reduced_test.arff, pages
 -----------------------------------------------------------------------------------------------------------------
 Filename: step3amodified.bash
 
+Description:
 1. Build 19 models for GreedyStepwise reduced files
 2. For each model calculate model performance
+
+Input:
+1. List of files: step2-feature-selection-list.txt
+2. Location of training files: ../datasets/gr
+
+Output:
+1. Location of prediction files: ../datasets/grpredict
 
 -----------------------------------------------------------------------------------------------------------------
 Filename: step3bmodified.bash
 
+Description:
 1. Build 19 models for BestFirst reduced files
 2. For each model calculate model performance
+
+Input:
+1. List of files: step2-feature-selection-list.txt
+2. Location of training files: ../datasets/bf
+
+Output:
+1. Location of prediction files: ../datasets/bfpredict
+
+-----------------------------------------------------------------------------------------------------------------
