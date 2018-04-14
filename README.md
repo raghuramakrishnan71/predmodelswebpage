@@ -26,3 +26,37 @@ Name of randomized onload arff files (e.g) : pages_all_onload.arff
 4. Location of randomized fullyloaded arff files: ../datasets/arff
 Name of randomized onload arff files (e.g) : pages_all_fullyloaded.arff
 (suffix _fullyloaded is added)
+
+-----------------------------------------------------------------------------------------------------------------
+
+Filename: step2modified.bash
+
+1. Select attributes using BestFit
+2. Select attributes using GreedyStepwise
+3. List attributes selected using BestFit
+4. List attributes select using GreedyStepwise
+5. Generate training data from BestFit reduced file
+6. Generate training data from GreedyStepwise reduced file
+7. Generate test data from BestFit reduced file
+8. Generate test data from GreedyStepwise reduced file
+
+Input:
+1. List of files: step2-feature-selection-list.txt
+2. Location of arff: ../datasets/arff
+
+Output:
+1. Location of feature selected files: ../datasets/bf, ../datasets/gr
+Name of feature selected files (e.g) :  pages_all_onload-bf-reduced.arff, pages_all_onload-gr-reduced.arff
+(suffix -bf-reduced or -gr-reduced is added)
+
+2. Location of selected attributes files: ../datasets/results
+Name of selected attributes files (e.g) : top-features-bf.csv, top-features-gr.csv
+
+3. Location of training data files: ../datasets/bf, ../datasets/gr
+Name of training data files (e.g) : pages_all_onload-bf-reduced_train.arff, pages_all_onload-gr-reduced_train.arff
+(suffix _train is added)
+
+4. Location of test data files: ../datasets/bf, ../datasets/gr
+Name of training data files (e.g) : pages_all_onload-bf-reduced_test.arff, pages_all_onload-gr-reduced_test.arff
+(suffix _test is added)
+
