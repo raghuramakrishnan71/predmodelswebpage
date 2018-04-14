@@ -62,27 +62,29 @@ Filename: step3amodified.bash
 
 Description:
 1. Build 19 models for GreedyStepwise reduced files
-2. For each model calculate model performance
+2. For each model calculate model performance using custom developed model.evaluation.ModelPerformance class (packaged in model-eval.jar)
 
 Input:
 1. List of files: step2-feature-selection-list.txt
-2. Location of training files: ../datasets/gr
+2. Location of test and training files: ../datasets/gr
 
 Output:
 1. Location of prediction files: ../datasets/grpredict
+2. Location of model performance file: ../datasets/results/evaluation_gr.csv
 
 -----------------------------------------------------------------------------------------------------------------
 Filename: step3bmodified.bash
 
 Description:
 1. Build 19 models for BestFirst reduced files
-2. For each model calculate model performance
+2. For each model calculate model performance using custom developed model.evaluation.ModelPerformance class (packaged in model-eval.jar)
 
 Input:
 1. List of files: step2-feature-selection-list.txt
-2. Location of training files: ../datasets/bf
+2. Location of test and training files: ../datasets/bf
 
 Output:
 1. Location of prediction files: ../datasets/bfpredict
+2. Location of model performance file: ../datasets/results/evaluation_bf.csv
 
 -----------------------------------------------------------------------------------------------------------------
