@@ -10,7 +10,7 @@ Description:
 
 Input:
 1. List of files: step1-datacreation-list.txt
-2. Location of csv: ../datasets/csv
+2. Location of csv: ../datasets/csv (contains 11 csv files)
 
 Output:
 1. Location of arff: ../datasets/arff
