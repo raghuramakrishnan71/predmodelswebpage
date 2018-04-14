@@ -1,12 +1,12 @@
 # predmodelswebpage
 
-Filename: step1modified
+Filename: step1modified.bash
 
 Description:
 1. convert csv to arff
 2. randomize contents of arff
-3. truncate dataset to include attributes relevant for onload
-4. truncate dataset to include attributes relevant for fullyloaded
+3. truncate dataset to include attributes relevant for onload (remove fields 1,2,3,5,6,51)
+4. truncate dataset to include attributes relevant for fullyloaded (remove fields 1,2,3,4,6,51)
 
 Input:
 1. List of files: step1-datacreation-list.txt
