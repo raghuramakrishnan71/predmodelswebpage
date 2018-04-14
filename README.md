@@ -1,8 +1,6 @@
 # predmodelswebpage
 
-=======================
-step1modified
-=======================
+Filename: step1modified
 
 Description:
 1. convert csv to arff
