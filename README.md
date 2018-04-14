@@ -2,6 +2,13 @@
 
 Structure of data directories
 
+
+---------------------------------------------------------------------------------------------------------------------------------
+Jar files required: 
+weka.jar, mtj.jar, model-eval.jar, commons-cli-1.4.jar, commons-csv-1.5.jar, commons-math3-3.6.1.jar, isotonicRegression.jar, leastMedSquared.jar, paceRegression.jar, RBFNetwork.jar
+
+model-eval.jar uses commons-cli-1.4.jar, commons-csv-1.5.jar, commons-math3-3.6.1.jar
+
 ---------------------------------------------------------------------------------------------------------------------------------
 Filename: step1modified.bash
 
