@@ -10,6 +10,9 @@ weka.jar, mtj.jar, model-eval.jar, commons-cli-1.4.jar, commons-csv-1.5.jar, com
 model-eval.jar uses commons-cli-1.4.jar, commons-csv-1.5.jar, commons-math3-3.6.1.jar
 
 ---------------------------------------------------------------------------------------------------------------------------------
+Data used is in csvexport.tar.gz
+---------------------------------------------------------------------------------------------------------------------------------
+
 Filename: step1modified.bash
 
 Description:
@@ -24,13 +27,13 @@ Input:
 
 Output:
 1. Location of arff: ../datasets/arff
-2. Location of randomized arff files: ../datasets/arff
+2. Location of randomized arff files: ../datasets/arff \
 Name of randomized arff files (e.g) : pages_all_randomized.arff
 (suffix _randomized is added)
-3. Location of randomized onload arff files: ../datasets/arff
+3. Location of randomized onload arff files: ../datasets/arff \
 Name of randomized onload arff files (e.g) : pages_all_onload.arff
 (suffix _onload is added)
-4. Location of randomized fullyloaded arff files: ../datasets/arff
+4. Location of randomized fullyloaded arff files: ../datasets/arff \
 Name of randomized onload arff files (e.g) : pages_all_fullyloaded.arff
 (suffix _fullyloaded is added)
 
@@ -52,15 +55,15 @@ Input:
 2. Location of arff: ../datasets/arff
 
 Output:
-1. Location of feature selected files: ../datasets/bf, ../datasets/gr
+1. Location of feature selected files: ../datasets/bf, ../datasets/gr \
 Name of feature selected files (e.g) :  pages_all_onload-bf-reduced.arff, pages_all_onload-gr-reduced.arff
 (suffix -bf-reduced or -gr-reduced is added)
-2. Location of selected attributes files: ../datasets/results
+2. Location of selected attributes files: ../datasets/results \
 Name of selected attributes files (e.g) : top-features-bf.csv, top-features-gr.csv
-3. Location of training data files: ../datasets/bf, ../datasets/gr
+3. Location of training data files: ../datasets/bf, ../datasets/gr \
 Name of training data files (e.g) : pages_all_onload-bf-reduced_train.arff, pages_all_onload-gr-reduced_train.arff
 (suffix _train is added)
-4. Location of test data files: ../datasets/bf, ../datasets/gr
+4. Location of test data files: ../datasets/bf, ../datasets/gr \
 Name of training data files (e.g) : pages_all_onload-bf-reduced_test.arff, pages_all_onload-gr-reduced_test.arff
 (suffix _test is added)
 
