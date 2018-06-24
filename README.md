@@ -19,8 +19,10 @@ Filename: step1modified.bash (maps to Section Collecting and Preparing the Data)
 Description:
 1. convert csv to arff
 2. randomize contents of arff
-3. truncate dataset to include attributes relevant for onload (remove fields 1,2,3,5,6,51)
-4. truncate dataset to include attributes relevant for fullyloaded (remove fields 1,2,3,4,6,51)
+3. truncate dataset to include attributes relevant for onload (remove fields 1,2,3,5,6,52)
+4. truncate dataset to include attributes relevant for fullyloaded (remove fields 1,2,3,4,6,52)
+
+1 = category, 2 = pageid, 3 = url, 4 = onLoad, 5 = fullyLoaded, 52 = pages_pageid
 
 Input:
 1. List of files: step1-datacreation-list.txt
