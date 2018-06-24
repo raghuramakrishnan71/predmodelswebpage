@@ -14,7 +14,7 @@ Data used is in csvexport.tar.gz
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-Filename: step1modified.bash
+Filename: step1modified.bash (maps to Section Collecting and Preparing the Data)
 
 Description:
 1. convert csv to arff
@@ -39,7 +39,7 @@ Name of randomized onload arff files (e.g) : pages_all_fullyloaded.arff
 (suffix _fullyloaded is added)
 
 -----------------------------------------------------------------------------------------------------------------
-Filename: step2modified.bash
+Filename: step2modified.bash (maps to Section Selecting Subset of Predictor Attributes)
 
 Description:
 1. Select attributes using BestFit
