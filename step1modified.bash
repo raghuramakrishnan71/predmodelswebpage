@@ -25,11 +25,11 @@ java $CLAZZ_PATH $JVM_MEM weka.filters.unsupervised.instance.Randomize -S $RANDO
 
 #truncate dataset to include attributes relevant for onload
 echo "Creating onload data file"
-java $CLAZZ_PATH $JVM_MEM weka.filters.unsupervised.attribute.Remove -R 1,2,3,5,6,51 -i "${ARFF_LOCATION}/${var}_randomized.arff" -o "${ARFF_LOCATION}/${var}_onload.arff"
+java $CLAZZ_PATH $JVM_MEM weka.filters.unsupervised.attribute.Remove -R 1,2,3,5,6,52 -i "${ARFF_LOCATION}/${var}_randomized.arff" -o "${ARFF_LOCATION}/${var}_onload.arff"
 
 echo "Creating fullyloaded data file"
 #truncate dataset to include attributes relevant for fullyloaded
-java $CLAZZ_PATH $JVM_MEM weka.filters.unsupervised.attribute.Remove -R 1,2,3,4,6,51 -i "${ARFF_LOCATION}/${var}_randomized.arff" -o "${ARFF_LOCATION}/${var}_fullyloaded.arff"
+java $CLAZZ_PATH $JVM_MEM weka.filters.unsupervised.attribute.Remove -R 1,2,3,4,6,52 -i "${ARFF_LOCATION}/${var}_randomized.arff" -o "${ARFF_LOCATION}/${var}_fullyloaded.arff"
 
 done < "$INPUT"
 
